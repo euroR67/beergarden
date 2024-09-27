@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         'oswald': ['"Oswald"', 'sans-serif'],
         'raleway': ['"Raleway"', 'sans-serif'],
+        'times': ['"Times New Roman"', 'serif'],
       },
       backgroundImage: {
         'hero': "url('../dist/img/h5-revolution-img-1.jpg')",
