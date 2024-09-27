@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -27,7 +28,7 @@
             <div class="flex justify-between flex-col md:flex-row md:w-full gap-10">
                 <div class="flex justify-between content-center">
                     <h1 class="text-2xl">REVOLVER</h1>
-                    <div class="flex items-center">
+                    <div class="flex items-center md:hidden">
                         <i class="fa-solid fa-times text-3xl"></i>
                     </div>
                 </div>
@@ -39,14 +40,16 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
                 <ul class="flex gap-4">
-                    <li><i class="fa-brands fa-twitter"></i></li>
-                    <li><i class="fa-brands fa-facebook-f"></i></li>
-                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <section class="h-svh bg-hero bg-no-repeat bg-center bg-cover"></section>
+    <section class="flex justify-center items-center h-svh bg-hero bg-no-repeat bg-center bg-cover p-5 md:pt-20">
+        <img src="img/h5-slider-graphic.png" alt="beergarden logo" class="w-auto h-auto md:h-full md:w-auto md:max-h-[85vh] max-h-[70vh]">
+    </section>
     <div>
         <p>1</p>
         <p>1</p>

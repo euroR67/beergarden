@@ -1,6 +1,7 @@
 // Récupère les l'élément fa-bars et fa-times du DOM
 const bars = document.querySelector('.fa-bars');
 const times = document.querySelector('.fa-times');
+
 // Récupère l'élément nav avec l'id mobile-menu du DOM
 const mobileMenu = document.querySelector('#mobile-menu');
 

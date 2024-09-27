@@ -1,0 +1,7 @@
+nav ul li a:hover {
+    color: rgb(174, 174, 174);
+}
+
+nav ul li a {
+    transition: all .5s;
+}
